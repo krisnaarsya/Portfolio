@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curiculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />        
+</head>
+<body>
+    
+    <script language="JavaScript">
+        var nama = prompt("Masukan Nama Anda!");
+        alert(`Assalamulaikum ${nama} Selamat Datang di Curiculum Vitae Saya`);
+        </script>
+<div class="container">
+    <div class="left_side">
+        <div class="ProfileText">
+            <div class="imgBx">
+                <img src="gambar/174 C.JPG"> 
+            </div>
+            <div id="Nama">
+                <h2>KRISNA ARSYA Randista<br><span>UI/UX Designer</span></h2>
+            </div>
+                </div>
+                <div class="kontak"><br>
+                    <h3 class="title">Kontak</h3> 
+                    <ul>
+                        <li>
+                            <span class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+                            <span class="text">085150009726</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <span class="text">krisnaarsya22@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                            <span class="icon">krisna.arsya</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="kontak pendidikan"><br>
+                    <h3 class="title">Pendidikan</h3>
+                    <ul>
+                        <div>
+                            <li>Politeknik Negeri Subang</li>
+                            <p>2022-Sekarang</p>
+                        </div>
+                        <div>
+                                <li>SMAS Budi Mulia Karawang</li>
+                                <p>2019-2021</p>
+                            </div>
+                            <div>
+                                <li>SMPN 1 Jalancagak</li>
+                                <p>2017-2019</p>
+                            </div>
+                            <div>
+                                <li>SDN Bunihayu 1</li>
+                                <p>2012-2017</p>
+                            </div>
+                        </ul>
+                    </div>
+                    <br> 
+                    <br>
+                    <div class="kontak pengalaman">
+                        <h3 class="title">Pengalaman Ber-organisasi</h3>
+                        <ul>
+                            <div>
+                                <li>Anggota Departemen Relasi HIMATIKOM</li>
+                                <p>2022-2023</p>
+                            </div>
+                            <div>
+                            <li>Anggota Departemen Relasi HIMATIKOM</li>
+                            <p>2023-Sekarang</p>
+                        </div>   
+                    </div>
+                </ul>
+            </div>
+            <div class="right_Side">
+                <div class="Waktu">
+                <FORM NAME = "formatwaktu">
+                    Waktu Sekarang :
+                    <INPUT TYPE = "TEXT"
+                            NAME = "teksWaktu"
+                            VALUE = ""
+                            SIZE = "22">
+                </FORM>
+                <SCRIPT LANGUAGE = "JavaScript">
+                    function aturWaktu() {
+                var sekarang = new Date();
+                var waktuSekarang = sekarang.toLocaleString();
+                        document.formatwaktu.teksWaktu.value =
+                        waktuSekarang;
+                    setTimeout(aturWaktu, 1000);
+                    return(true);
+                }
+                // Menajalankan fungsi aturWaktu
+                aturWaktu(); 
+                </SCRIPT>
+                </div>
+                <div class="Tentang_Saya">
+                        <h3>Tentang Saya</h3>
+                        <br>
+                        <p>Saya adalah seorang mahasiswa yang sedang menempuh pendidikan D-III Sistem Informasi di Politeknik Negeri Subang yang memiliki skill yang kompeten dibidangnya, seperti UI/UX. Serta aktif ber-organisasi di himpunan mahasiswa teknologi, informasi dan komputer, sehingga saya memiliki kemampuan kerja sama yang baik.</p>
+                    </div>    
+    
+                    <br>
+                    <br>   
+                <div class="moto_hidup">
+                    <h2>Moto Hidup</h2><br>
+                    <p>Terus melangakah, jangan menyerah!!</p>
+                </div>
+                <br>
+                <br>
+                    
+                        <div class="title2_Hobi">
+                            <div>
+                                <h2>HOBI</h2><br>
+                                <ul>
+                                    <li>Olahraga</li>
+                                    <li>Hiking</li>
+                                    <li>Traveling</li>
+                                    <li>Mendengarkan Musik</li>
+                                </ul>
+                            </div>
+                        </div>        
+                            <br>
+                            <br>
+                            <div class="title3_Keahlian">
+                                <div>
+                                    <h2>Keahlian</h2><br>
+                                    <ul>
+                                        <p><input type="checkbox" name="keahlian_pengguna" value="0" checked="">MS.Office</p><br>
+                                        <p><input type="checkbox" name="keahlian_pengguna" value="1">Network Adiministration</p><br>
+                                        <p><input type="checkbox" name="keahlian_pengguna" value="2">Data Analyst</p><br>
+                                        <p><input type="checkbox" name="keahlian_pengguna" value="3">Network Design</p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                                <div class="title4_Bidang">
+                                    <div>
+                                        <h2>Bidang</h2><br>
+                                        <ul>
+                                        <label>Pilih Satu Bidang Keahlian yang Paling Dibutuhkan :</label><br>
+                                        <br>
+                                        <p><input type="radio" name="keahlian_pengguna" value="0" checked="">Data Entry</p><br>
+                                        <p><input type="radio" name="keahlian_pengguna" value="1">UI/UX Designer</p><br>
+                                        <p><input type="radio" name="keahlian_pengguna" value="2">System Analyst</p><br>
+                                        <p><input type="radio" name="keahlian_pengguna" value="3">Quality Asurance</p><br>
+                                        <p><input type="radio" name="keahlian_pengguna" value="4">Dataware House</p>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="bidang_cocok">
+                                    <div>
+                                        <p>Bidang yang cocok :<input type="text"></p>
+                                    </div>
+                                </div>
+                            <br>
+                            <br>
+                            <div class="form_dosen">
+                            <ul>
+                                <label for="nama_dosen">Kami Team HRD</label>
+                                <input type="text" placeholder="Nama Dosen" id="nama_dosen">
+                                <p2>telah membaca cv Anda</p2>
+                                <input type="submit" value="Kirim"><br><br>
+                            <br> 
+                            </ul>
+                            </div>
+                    </div>
+                </div>
+         </body>
+</html>
